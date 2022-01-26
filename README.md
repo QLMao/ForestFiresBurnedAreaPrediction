@@ -10,25 +10,25 @@ The slides and video of this project presentation  are also provided in this rep
 
 - There were 12 input-attributes and 1 output-attribute, including: Weather conditions,Location coordinates, Timestamp, Indexes from Fire Weather Index system and Destroyed area (output)
 
-  <img src="C:\Users\MQL\Pictures\ML\图片7.jpg" alt="图片7" style="zoom:50%;" />
+  <img src="https://github.com/QLMao/ForestFiresBurnedAreaPrediction/raw/main/Figs/DataSample.jpg" alt="DataSample" style="zoom:30%;" />
 
 ## Methods
 
 Support Vector Regression (SVR) model is suitable for this regression task, while we used data discretization  to predicted attributes turning the continuous numeric variables in different buckets, which increases the granularity by this hashing-like operation, and this approach have lowered the error of prediction. The figure below illustrates two approach by 1) SVR directly, 2) Data Discretization + SVC.
 
-### ![image-20220126203613204](C:\Users\MQL\AppData\Roaming\Typora\typora-user-images\image-20220126203613204.png)
+  <img src="https://github.com/QLMao/ForestFiresBurnedAreaPrediction/raw/main/Figs/TwoApproaches.jpg" alt="TwoApproaches" style="zoom:50%;" />
 
 ## Metric
 
 We used this two metric to evaluate the model performance.
 
-<img src="C:\Users\MQL\Pictures\ML\图片6.jpg" alt="图片6" style="zoom: 80%;" />
+<img src="https://github.com/QLMao/ForestFiresBurnedAreaPrediction/blob/main/Figs/Metric.jpg" alt="Metric" style="zoom: 70%;" />
 
 ## Results and conclusions
 
 Here, we shown the model with Data Discretization + SVC (The Best Model) and the model with SVR (BASELINE Model). The former model perform well on two both metric. The most important thing is we visualized the predicted result in 3D and found that the predicted result of SVR model has no practical value in reality because all prediction are nearing with zero.
 
-<img src="C:\Users\MQL\Pictures\ML\图片1.jpg" alt="图片1" style="zoom:20%;" />
+<img src="https://github.com/QLMao/ForestFiresBurnedAreaPrediction/blob/main/Figs/visualization3D.jpg" alt="visualization3D" style="zoom:20%;" />
 
 
 
