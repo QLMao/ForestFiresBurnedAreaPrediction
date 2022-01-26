@@ -1,8 +1,8 @@
 # Forest Fires Burned Area Prediction
 
-Predicting the burned area is a **regression** task. In this project, we use the **feature engineering** approaches and **machine learning model** for prediction.  All code and notes are saved in a single ".ipynb" file including  the code for downloading the dataset.
+Predicting the burned area is a **regression** task. In this project, we use the **feature engineering** approaches and **machine learning models** for prediction.  All code and notes are saved in a single ".ipynb" file including  the code for downloading the dataset.s
 
-The slides and video of this project presentation  are also provided in this repo. and Bilibili ([机器学习：森林火灾预测 主要的特征工程：被解释变量离散化_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Bi4y1F7fm?spm_id_from=333.999.0.0)), respectively. (plz, allowing my poor English. :)
+The slides and video of this project presentation  are also provided in this repo. and Bilibili ([机器学习：森林火灾预测 主要的特征工程：被解释变量离散化_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Bi4y1F7fm?spm_id_from=333.999.0.0)), respectively. (plz, allowing my poor English). :)
 
 ## Dataset
 
